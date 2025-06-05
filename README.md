@@ -7,7 +7,7 @@ Projekt zaliczeniowy na studia podyplomowe.
 
 - Wyświetlanie memów na dwóch głównych podstronach:
     - `/hotmemes` - memy z przewagą upvote - downvote > 5
-    - `/` - popzostałe memy (Regular Memes)
+    - `/` - pozostałe memy (Regular Memes)
 - Głosowanie na memy: upvote / downvote
 - Filtrowanie memów "na żywo"
 - Oznaczanie memów jako ulubione (gwiazdka)
@@ -24,7 +24,7 @@ Projekt zaliczeniowy na studia podyplomowe.
 
 ### Instrukcja uruchomienia projektu lokalnie
 
-1.Sklonuj repozytorium:
+1. Sklonuj repozytorium:
 
 git clone https://github.com/marcelinasmolinska/mem-serwis
 cd mem-serwis/mem-serwis
@@ -43,7 +43,7 @@ http://localhost:3000
 ## Struktura projektu
 
 - App.jsx - główny komponent aplikacji zawierający konfigurację tras za pomocą ReactRouter
-- /pages  widoki: 
+- /pages - widoki: 
     - ErrorPage.jsx - strona błędu (404)
     - FavoriteMemes.jsx - memy oznaczone jako ulubione
     - HotMemes.jsx - memy z przewagą głosów pozytywnych
@@ -52,7 +52,7 @@ http://localhost:3000
     - AddMeme.jsx - formularz dodania nowego mema
     - Mem.jsx - pojedynczy mem (z oceną i interakcjami)
     - Navigation.jsx - menu nawigacyjne
-- memsData.js - początkowa lista memów (dane trzymane lokalnie)
+- memesData.js - początkowa lista memów (dane trzymane lokalnie)
 
 ## Uwagi
 
