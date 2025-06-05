@@ -26,14 +26,20 @@ Projekt zaliczeniowy na studia podyplomowe.
 
 1. Sklonuj repozytorium:
 
+bash
+
 git clone https://github.com/marcelinasmolinska/mem-serwis
 cd mem-serwis/mem-serwis
 
 2. Zainstaluj zależności:
 
+bash
+
 npm install
 
 3. Uruchom aplikację:
+
+bash
 
 npm start
 
