@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { AiFillSecurityScan } from "react-icons/ai";
 import { useNavigate } from "react-router-dom";
 
 export default function AddMeme({ onAddMeme }) {

@@ -6,8 +6,8 @@ Projekt zaliczeniowy na studia podyplomowe.
 ## Funkcje
 
 - Wyświetlanie memów na dwóch głównych podstronach:
-    - `/hotmemes` - memy z przewagą upvote - downvote > 5
-    - `/` - pozostałe memy (Regular Memes)
+  - `/hotmemes` - memy z przewagą upvote - downvote > 5
+  - `/` - pozostałe memy (Regular Memes)
 - Głosowanie na memy: upvote / downvote
 - Filtrowanie memów "na żywo"
 - Oznaczanie memów jako ulubione (gwiazdka)
@@ -15,7 +15,7 @@ Projekt zaliczeniowy na studia podyplomowe.
 - Nawigacja między stronami
 - Dodawanie nowego mema z podaniem tytułu i linku do obrazka (formularz)
 
-## Technologie 
+## Technologie
 
 - React
 - React Router DOM
@@ -38,20 +38,20 @@ npm install
 npm start
 
 4. Aplikacja będzie dostępna pod tym adresem:
-http://localhost:3000
+   http://localhost:3000
 
 ## Struktura projektu
 
 - App.jsx - główny komponent aplikacji zawierający konfigurację tras za pomocą ReactRouter
-- /pages - widoki: 
-    - ErrorPage.jsx - strona błędu (404)
-    - FavoriteMemes.jsx - memy oznaczone jako ulubione
-    - HotMemes.jsx - memy z przewagą głosów pozytywnych
-    - RegularMemes.jsx - pozostałe memy
-- /components - komponenty: 
-    - AddMeme.jsx - formularz dodania nowego mema
-    - Mem.jsx - pojedynczy mem (z oceną i interakcjami)
-    - Navigation.jsx - menu nawigacyjne
+- /pages - widoki:
+  - ErrorPage.jsx - strona błędu (404)
+  - FavoriteMemes.jsx - memy oznaczone jako ulubione
+  - HotMemes.jsx - memy z przewagą głosów pozytywnych
+  - RegularMemes.jsx - pozostałe memy
+- /components - komponenty:
+  - AddMeme.jsx - formularz dodania nowego mema
+  - Mem.jsx - pojedynczy mem (z oceną i interakcjami)
+  - Navigation.jsx - menu nawigacyjne
 - memesData.js - początkowa lista memów (dane trzymane lokalnie)
 
 ## Uwagi
@@ -63,4 +63,3 @@ http://localhost:3000
 
 Projekt zaliczeniowy - studia podyplomowe.
 Autor: Marcelina Smolińska
-
